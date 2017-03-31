@@ -4,6 +4,8 @@
   "description": "Demo Node.js app. Shows use of unit  testing and deployed to AWS",
   "main": "index.js",
   "scripts": {
+    "restart": "pm2 startOrRestart ecosystem.config.js",
+    "deploy": "pm2 deploy ecosystem.config.js production",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,6 +19,7 @@
   },
   "homepage": "https://github.com/suitcasemedia/celeb-namer#readme",
   "devDependencies": {
-    "express": "^4.15.2"
+    "express": "^4.15.2",
+    "pm2": "^2.4.3"
   }
 }
