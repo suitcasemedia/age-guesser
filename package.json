@@ -1,0 +1,22 @@
+{
+  "name": "celeb-spotter",
+  "version": "1.0.0",
+  "description": "Demo Node.js app. Shows use of unit  testing and deployed to AWS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suitcasemedia/celeb-namer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/suitcasemedia/celeb-namer/issues"
+  },
+  "homepage": "https://github.com/suitcasemedia/celeb-namer#readme",
+  "devDependencies": {
+    "express": "^4.15.2"
+  }
+}
