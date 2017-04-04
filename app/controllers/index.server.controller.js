@@ -1,3 +1,3 @@
 exports.render = function(req, res){
-    res.send("HELLO NEW FOLDER STRUCTURE");
+    res.send("app coming soon");
 }
