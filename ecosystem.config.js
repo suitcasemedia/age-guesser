@@ -10,7 +10,7 @@ module.exports = {
       key: '~/.ssh/jimmy-studio-desktop.pem',
       ref: 'origin/master',
       repo: 'git@github.com:suitcasemedia/age-guesser.git',
-      path: '/home/ubuntu/server/source',
+      path: '/home/ubuntu/server',
       'post-deploy': 'npm install && pm2 startOrRestart ecosystem.config.js'
     }
   }
