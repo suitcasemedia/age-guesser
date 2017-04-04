@@ -1,8 +1,8 @@
 {
-  "name": "celeb-spotter",
-  "version": "1.0.0",
+  "name": "age-guesser",
+  "version": "0.0.1",
   "description": "Demo Node.js app. Shows use of unit  testing and deployed to AWS",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "restart": "pm2 startOrRestart ecosystem.config.js",
     "deploy": "pm2 deploy ecosystem.config.js production",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/suitcasemedia/celeb-namer.git"
+    "url": "git+https://github.com/suitcasemedia/age-guesser.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/suitcasemedia/celeb-namer/issues"
+    "url": "https://github.com/suitcasemedia/age-guesser/issues"
   },
-  "homepage": "https://github.com/suitcasemedia/celeb-namer#readme",
+  "homepage": "https://github.com/suitcasemedia/age-guesser#readme",
   "devDependencies": {
     "express": "^4.15.2",
     "pm2": "^2.4.3"
