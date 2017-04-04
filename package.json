@@ -20,6 +20,11 @@
   "homepage": "https://github.com/suitcasemedia/age-guesser#readme",
   "devDependencies": {
     "express": "^4.15.2",
-    "pm2": "^2.4.3"
+    "pm2": "^2.4.3",
+    "morgan": "~1.3.0",
+    "compression": "~1.0.11",
+    "body-parser": "~1.8.0",
+    "method-override": "~2.2.0",
+    "ejs": "~1.0.0"
   }
 }

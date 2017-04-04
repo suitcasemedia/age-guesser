@@ -1,3 +1,6 @@
 exports.render = function(req, res){
-    res.send("app coming soon...");
-}
+    res.render('index', {
+        title: 'Node demo app coming soon...'
+
+    })
+};
